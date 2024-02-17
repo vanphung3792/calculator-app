@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    @apply font-sans
+    bg-amber-100
+}
+
+.app {
+    @apply
+        min-h-screen
+        flex
+        justify-center
+        pt-24
+}
+
+.calculator {
+    @apply
+        w-[400px]
+        h-[500px]
+        bg-amber-300
+        rounded-lg
+        shadow-2xl
+
+}
+
+.output {
+    @apply
+        h-[100px]
+        bg-amber-400
+        text-amber-900
+        font-bold
+        rounded-t-lg
+        flex
+        flex-col
+        items-end
+        justify-center
+        px-4
+}
+
+.input {
+    @apply
+        h-[400px]
+        bg-amber-300
+        rounded-b-lg
+        text-3xl
+        grid
+        grid-cols-4
+        gap-2
+        p-2
+} 
+
+button {
+    @apply
+        bg-amber-200
+        text-amber-800
+        font-bold
+        transition
+        duration-300
+        ease-in-out
+        rounded
+}
