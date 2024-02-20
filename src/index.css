@@ -52,7 +52,8 @@ html {
         p-2
 } 
 
-button {
+
+.btn {
     @apply
         bg-amber-200
         text-amber-800
@@ -61,4 +62,12 @@ button {
         duration-300
         ease-in-out
         rounded
+        shadow-lg
+        hover:shadow-inner
 }
+
+.operationBtn {
+    @apply
+        bg-yellow-600/50
+}
+
